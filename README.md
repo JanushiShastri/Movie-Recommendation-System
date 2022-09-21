@@ -1,4 +1,4 @@
-# Movie-Recommendation-System
+# The-Movie-Cinema
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
@@ -9,6 +9,9 @@ This application provides all the details of the requested movie such as overvie
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
+## Heroku link
+ https://yash-movie-recommendation.herokuapp.com/
+ 
  
 ## Note
 
@@ -34,4 +37,5 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 3. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)
 4. [List of movies in 2019](https://en.wikipedia.org/wiki/List_of_American_films_of_2019)
 5. [List of movies in 2020](https://en.wikipedia.org/wiki/List_of_American_films_of_2020)
+
 
